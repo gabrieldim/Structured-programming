@@ -1,24 +1,3 @@
-/*
-In a given file "broevi.txt" several rows of numbers are written so that each row starts with an
-integer (N> = 1) which indicates how many numbers follow it in that row. Write a program that will
-print the number with the largest most significant digit on the standard output for each row.
-Reading numbers ends when 0 is read.
-
-Test case:
-Input: 
-4 43123 1123 998 454
-2 16777 7
-5 18 7651 88 1332 76511
-0
-
-Output:
-998
-7
-88
-
-
-*/
-
 #include <stdio.h>
 #include <string.h>
 #define MAX 100
